@@ -9,10 +9,10 @@ NeuralNetwork = require("dimag").NeuralNetwork
 ```
 
 ## API Documentation
-See `docs/NeuralNetwork.md`
+See [docs/NeuralNetwork.md](docs/NeuralNetwork.md)
 
 ## Example
-See `main.lua` in the repository root for an commented example of a flappy bird game being played by AI
+See [main.lua](main.lua) in the repository root for an commented example of a flappy bird game being played by AI
 
 ## License
 This library is licensed under the MIT license, do whatever you want with it.
