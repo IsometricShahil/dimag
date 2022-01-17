@@ -12,7 +12,8 @@ NeuralNetwork = require("dimag").NeuralNetwork
 See [docs/NeuralNetwork.md](docs/NeuralNetwork.md)
 
 ## Example
-See [main.lua](main.lua) in the repository root for an commented example of a flappy bird game being played by AI
+See [main.lua](main.lua) in the repository root for an commented example of a flappy bird game being played by AI. </br>
+Move your mouse across the horizontal axis to control the speed of the game.
 
 ## License
 This library is licensed under the MIT license, do whatever you want with it.
