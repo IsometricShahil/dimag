@@ -363,7 +363,11 @@ function intersect.aabb_point_clamp(pos, hs, v, into)
 end
 
 -- return true on overlap, false otherwise
-function intersect.aabb_circle_overlap(a_pos, a_hs, b_pos, b_rad)
+function intersect.aabb_circle_overlap(ax, ay, aw, ah, bx, by, b_rad)
+	local a_pos = vec2(ax, ay)
+	local a_hs = vec2(aw, ah)
+	local b_pos = vec2(bx, by)
+	
 	local clamped = intersect.aabb_point_clamp(a_pos, a_hs, b_pos, vec2:pooled())
 	local edge_distance_squared = clamped:distance_squared(b_pos)
 	clamped:release()
