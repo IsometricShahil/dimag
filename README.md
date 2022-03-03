@@ -19,10 +19,11 @@ This library is licensed under the MIT license, do whatever you want with it.
 
 ## To Do
 The library lacks a lot of functionality right now which will be added soon™.. </br>
-* Implement crossover
-* Think about creating a `Population` class
-* Add backpropagation
-* Add a score counter to the flappy bird example
-* Add more activation functions
-* Add unit testing
-* Implement `random.randNormal` in lua, so this library can work without löve
+* Implement crossover.
+* Think about a `Population` class.
+* Add backpropagation (supervised learning).
+* Add a score counter to the flappy bird example.
+* Add more activation functions.
+* Add unit tests for the matrix class.
+* Implement `random.randNormal` in lua, so this library can work without löve.
+* Add support for easy visualization of NN. (?)
