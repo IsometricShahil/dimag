@@ -18,7 +18,6 @@ See [main.lua](main.lua) in the repository root for an commented example of a fl
 This library is licensed under the MIT license, do whatever you want with it.
 
 ## To Do
-The library lacks a lot of functionality right now which will be added soon™.. </br>
 * Implement crossover.
 * Think about a `Population` class.
 * Add backpropagation (supervised learning).
